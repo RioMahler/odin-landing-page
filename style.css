@@ -1,0 +1,165 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background: #1f2937;
+  padding: 2vw 10vw;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 2vw 0;
+}
+
+.logo,
+h3 {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero-section {
+  display: flex;
+  gap: 5vw;
+  padding: 10vw 0;
+}
+
+.awesome {
+  width: 40vw;
+}
+
+h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.header-text {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 1rem 0;
+}
+
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.image {
+  background: grey;
+  color: #f9faf8;
+  display: flex;
+
+  align-items: center;
+}
+
+.image p {
+  text-align: center;
+  width: 40vw;
+}
+
+.random-container {
+  padding: 0 12vw 5vw;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin: 2rem 0;
+}
+
+.random {
+  display: flex;
+
+  justify-content: center;
+}
+
+.blue-borders {
+  border: #3882f6 solid 4px;
+  border-radius: 15px;
+  width: 12vw;
+  height: 12vw;
+  margin: auto;
+}
+
+.random p {
+  text-align: center;
+  padding: 2rem;
+}
+
+.quote {
+  background: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10vw 20vw;
+}
+
+blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.quote p {
+  text-align: end;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.blue-call {
+  background-color: #3882f6;
+  margin: 10vw;
+  padding: 4vw 4vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.blue-call p {
+  color: white;
+  font-size: 18px;
+}
+
+.blue-call button {
+  border: solid white 2px;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #1f2937;
+}
+
+.footer p {
+  color: #f9faf8;
+  text-align: center;
+  padding: 2vw;
+}
